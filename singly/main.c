@@ -1,5 +1,6 @@
-#include "singly.c"
+#include "singly.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     list_t* list = list_alloc();
@@ -33,6 +34,7 @@ int main() {
     int gotten_val;
     list_get(list, &gotten_val, 2);
     printf("the gotten node data is %d\n", gotten_val);
+
     // (3, 7, 2)
 
     printf("from head to tail: %d, %d, %d\n", list->head->data, list->head->next->data, list->tail->data);
