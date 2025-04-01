@@ -1,1 +1,1 @@
-first firmware assignment to get accusotmed to creating and testing linked list functions
+first firmware assignment to get accustomed to creating and testing linked list functions
